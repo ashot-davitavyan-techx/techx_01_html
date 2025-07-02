@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Media Page</title>
+</head>
+
+<body> 
+    <header>
+        <h1> Media </h1>
+    </header>
+    <img src="images/gym_car.jpg" alt="Gym Car" title="silly cat" width="250" height="250"><br>
+    <picture>
+        <source srcset="images/gym_car_2.jpg" media="(min-width: 700px)">
+        <source srcset="images/gym_car.jpg" media="(max-width: 699px)">
+        <img src="images/gym_car_2.jpg" alt="Gym Car 2" title="another silly cat" width="250" height="250">
+    </picture><br><br>
+    <h2>Video</h2>
+    <iframe 
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/twmwmv5RPYk?si=EA1WWywYTGPRvR5U"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+    </iframe>
+
+    <h2>Our Location</h2>
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15257.183132403894!2d120.88452037031682!3d17.058178677217153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x338fd33506bcb0ef%3A0xfd0bfcf6d10688cf!2sAmbasing%2C%20Sagada%2C%20Mountain%20Province%2C%20Philippines!5e0!3m2!1sen!2sam!4v1751381296550!5m2!1sen!2sam" 
+      width="600" 
+      height="450" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    </body>
+</html>
